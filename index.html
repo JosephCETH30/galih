@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Futsal Enjoyer | Galih Aldyas</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Galih Aldyas</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="?">Home</a></li>
+          <li><a href="#about">Profile Channel</a></li>
+          <li><a href="#Gallery">Gallery</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Galih Aldyas</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="?" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#about" onclick="toggleMenu()">Profile Channel</a></li>
+          <li><a href="#Gallery" onclick="toggleMenu()">Gallery</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact Us</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./galih2.jpg" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, This is</p>
+        <h1 class="title">Galih Aldyas</h1>
+        <p class="section__text__p2"></p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./channelyoutube.html')"
+          >
+            Subscribe Youtube
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./instagramgue.html'">
+            Follow IG
+          </button>
+        </div>
+        <!-- <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div> -->
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Mengenal Lebih jauh</p>
+      <h1 class="title">Profile Channel</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/galih.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Analisis Singkat</h3>
+              <p>70+ Views <br />22 Subscriber <br />7 Video</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Santy and dont forget to subscibe
+              Kepribadian Unik: Kenzooo bukan hanya seorang gamer, tapi juga teman akrab yang selalu siap menyajikan hiburan dengan senyuman. Jangan kaget dengan tingkah laku kocak dan komentar konyolnya yang membuat setiap video menjadi pengalaman yang menghibur!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#gallery'"
+      />
+    </section>
+    
+    <!-- Galery-->
+    <section id="projects">
+      <p class="section__text__p1">lihatlah isi dari</p>
+      <h1 class="title">Gallery Saya</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/thumb1.webp"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Wan wan kalau pake build ini auto ws++</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.youtube.com/watch?v=nP3tdH-dlZw'"
+              >
+                Lihat Video
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.youtube.com/@kenzoook3500"
+              >
+                Subrek dong
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/thumb2.webp"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Tipis banget nyerang war coc tapi ga bintang 3</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.youtube.com/watch?v=CHwqKA8Jd9E/'"
+              >
+                Lihat Video
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.youtube.com/@kenzoook3500'"
+              >
+                Subrek dong
+              </button>
+            </div>
+            
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/thumb3.webp"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Joy exp masih se OP ini kalo pakai emblem dan build ini?!!
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.youtube.com/watch?v=40aBTk5zxcI'"
+              >
+                Lihat Video
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.youtube.com/@kenzoook3500"
+              >
+                Subrek dong
+              </button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/thumb4.web.webp"
+                alt="Project 4"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Edisi ngetroll di coc?!
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.youtube.com/watch?v=gHV0uf1SZeM'"
+              >
+                Lihat Video
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.youtube.com/@kenzoook3500"
+              >
+                Subrek dong
+              </button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/thumb5.webp"
+                alt="Project 5"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Wan wan kalau pake build ini auto ws++</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.youtube.com/watch?v=fRpjpfgAoxE'"
+              >
+                Lihat Video
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.youtube.com/@kenzoook3500"
+              >
+                Subrek dong
+              </button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/thumb6.webp"
+                alt="Project 6"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Wan wan kalau pake build ini auto ws++</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.youtube.com/watch?v=4p-VlhI-zjg'"
+              >
+                Lihat Video
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.youtube.com/@kenzoook3500"
+              >
+                Subrek dong
+              </button>
+            </div>
+          </div> 
+         
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+
+
+
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Favorite</p>
+      <h1 class="title">Music</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <iframe
+                src="./assets/video1.mp4"
+                width="100%"  
+                height="250px"
+                frameborder="0"
+                
+                class="project-iframe"
+              ></iframe>
+            </div>
+            
+            <h2 class="experience-sub-title project-title">Melompat lebih tinggi
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://blog.gudanglagu321.cc/download/melompat-lebih-tinggi-sheila-on-7'"
+              >
+                Download MP3
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <iframe
+                src="./assets/video2.mp4"
+                width="100%"  
+                height="250px"
+                frameborder="0"
+                
+                class="project-iframe"
+              ></iframe>
+            </div>
+            
+            <h2 class="experience-sub-title project-title">Dan - Sheila On 7
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://blog.gudanglagu321.cc/download/melompat-lebih-tinggi-sheila-on-7'"
+              >
+                Download MP3
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <iframe
+                src="./assets/video3.mp4"
+                width="100%"  
+                height="250px"
+                frameborder="0"
+                
+                class="project-iframe"
+              ></iframe>
+            </div>
+            
+            <h2 class="experience-sub-title project-title">Penjaga Hati
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.youtube.com/watch?v=jia3fhBQ8qI&pp=ygUMcGVuamFnYSBoYXRp'"
+              >
+                Download MP3
+              </button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">galihaldyas@gmail.com</a></p>
+        </div>
+        
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+             <li><a href="?">Home</a></li>
+            <li><a href="#about">Profile Channel</a></li>
+            <li><a href="#Gallery">Gallery</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Galih Aldyas. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
